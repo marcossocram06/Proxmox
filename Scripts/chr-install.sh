@@ -5,6 +5,8 @@ versao="nil"
 vmID="nil"
 
 echo "############## Início do Script ##############"
+## Instalando dependência
+apt install unzip
 
 ## Verificando se o diretório temporário está disponível..."
 if [ -d /root/temp ]
